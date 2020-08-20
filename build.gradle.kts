@@ -22,9 +22,6 @@ plugins {
     `maven-publish`
 }
 
-val awsAccessKey: String by project
-val awsSecretKey: String by project
-
 repositories {
     mavenCentral()
     jcenter()
